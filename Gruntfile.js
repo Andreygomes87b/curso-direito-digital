@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 uglify: {
     build1: {
         src: [/*"src/js/descompresso/index.js","src/js/descompresso/hammer.min.js",*/ "src/js/descompresso/video_resp.js", /*"src/js/descompresso/jquery-1.12.4.min.js","src/js/descompresso/jquery_v3.3.1.min.js",*/ "src/js/descompresso/jquery-3.4.0.min.js", "src/js/descompresso/modernizr-custom.js", "src/js/descompresso/webp.js"],
-        dest: "src/js/top_js_uglyfied.js",
+        dest: "top_js_uglyfied.js",
     },
     build2: {
         src: ["src/js/descompresso/index.js","src/js/descompresso/menu_mobile.js", "src/js/descompresso/hamburger_transition.js"],
@@ -45,7 +45,7 @@ concat_css: {
     options: {},
     all: {
       src: ["src/css/min/animate.min.css", "src/css/min/styles.min.css", "src/css/min/materialize.min.css"],
-      dest: "src/css/min/stylesf-min.css"
+      dest: "stylesf-min.css"
     }},
 
 
