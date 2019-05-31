@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="theme-color" content="#81def1"/>     
+        <link rel="manifest" href="manifest.json">
+
         <link rel="preload" href="stylesf-min.css" as="style">
         <link rel="stylesheet" href="stylesf-min.css">
 
@@ -14,12 +16,19 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <link rel="preconnect" href="https://www.google-analytics.com">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-19"></script>
+        
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-41994177-19');
+        </script>
+
+        <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+        }
         </script>
 
         <title>Curso de Extensão em Direito Digital - FDSM</title>
