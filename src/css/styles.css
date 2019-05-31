@@ -536,8 +536,8 @@ a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-b
 
   /* sprite testing on social media icons */
     #container_redes_sociais_s {float: left; width: 62%; margin: 5% 19.453%; display: block;}
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('../../../images/rs_s.webp') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s{display: inline-block; background: url('../../../images/rs_s.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s.webp') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s{display: inline-block; background: url('images/img-fallback/rs_s.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
       
     .blog-s { background-position: 0px -0px; width: 25px; height: 25px; margin: 2%;}
     .facebook-s {background-position: -27px -0px !important; width: 25px; height: 25px; margin: 2%;}
@@ -638,8 +638,8 @@ a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-b
     #icone_email{float: left; width: 7.8%; padding: 1% 1%; margin: -1% 0 0 0;}
 
     #container_redes_sociais_s {float: left; width: 69%; margin: 5% 16%; display: block;}
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('../../../images/rs_s.webp') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s{display: inline-block; background: url('../../../images/rs_s.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s.webp') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s{display: inline-block; background: url('images/img-fallback/rs_s.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
       
     .blog-s {background-position: 0px -0px !important; width: 25px; height: 25px; margin: 2%;}
     .facebook-s { background-position: -27px -0px !important; width: 25px; height: 25px; margin: 2%;}
