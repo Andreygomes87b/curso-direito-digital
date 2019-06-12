@@ -11,9 +11,11 @@ polyline{color:#8ce2f3;}
 ::-webkit-scrollbar-thumb:hover {background: #29547A;}
 
 body{margin: 0; overflow-x: hidden; float: left; width: 100%; font-family: 'Libre Franklin', sans-serif;}
+img{width: 100%; height: 100%;}
 .osw, .osb{font-family: 'Libre Franklin', sans-serif;}
 a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-box-shadow: 9px 12px 13px 2px rgba(0,0,0,0.31); box-shadow: 9px 12px 13px 2px rgba(0,0,0,0.31);}
 .hvrme{background-color: #29547A; color: #FFFFFF;}
+
 
 /* oswald-regular - latin */
 @font-face {
@@ -75,7 +77,7 @@ a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-b
 @media only screen and (min-width : 1201px) {
   a:link, a:visited {cursor: pointer; text-decoration: none; color: #FFFFFF;}
   h1{font-size: 2vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Open Sans', sans-serif;}
-  p {font-size: 1.5vw; color: #58595B; padding: 2% 2%;}
+  p {font-size: 1.5vw; color: #58595B; padding: 2% 2%;}  
   
   /* MENU */
     .topnav{float: left; width: 100%; position: relative; z-index: 99999;}
@@ -83,7 +85,7 @@ a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-b
     #logo_topo_w {width: 70%; margin: 15% 15%;}
     #myLinks {float: left; width: 90%; margin: 4% 0; display: block; font-size: 1vw;}
     .modder_1{padding: 2%;}
-    .icon{display: none;}    
+    .icon{display: none;}     
   /* end of MENU */
 
   /*#SECTION_1 (TOPO) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
