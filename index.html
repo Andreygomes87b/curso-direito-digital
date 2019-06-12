@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" style="overflow-x: hidden;">
+
     <head>
         <meta charset="UTF-8">
         <meta name="theme-color" content="#81def1"/>     
@@ -11,7 +12,10 @@
         <!--<link rel="preload" href="src/css/styles.css" as="style">
         <link rel="stylesheet" href="src/css/styles.css">-->
 
-        <link rel="preconnect" href="https://i.ytimg.com">
+        <link rel="preconnect" href="https://i.ytimg.com/vi/Dao3eoHdD4s/hqdefault.jpg">
+        <link rel="preload" href="https://i.ytimg.com/vi/Dao3eoHdD4s/hqdefault.jpg" as="image">
+
+        <link rel="preconnect" href="https://www.google-analytics.com">        
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script>
@@ -23,6 +27,7 @@
         gtag('config', 'UA-41994177-1');
         </script>
 
+        <!-- this is the service worker script -->
         <script>
         if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js')
@@ -36,7 +41,7 @@
         <meta property="og:url" content="https://www.fdsm.edu.br/curso-direito-digital">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="images/favicon_fdsm.png" rel="icon" type="image/x-icon">    
-        <script defer src="top_js_uglyfied.js"></script>    
+        <script defer src="top_js_uglyfied.js"></script>
     </head>
 
     <body>

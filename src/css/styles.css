@@ -151,9 +151,9 @@ a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-b
     #icone_email{float: left; width: 2.8%; padding: 1% 1%; margin: -1% 0 0 0;}
     #container_redes_sociais_s{display: none;}
 
-    /*.blog, .facebook, .instagram, .linkedin, .twitter, .youtube {display: inline-block; background: url('../../../images/img-fallback/rs.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}*/
+    /*.blog, .facebook, .instagram, .linkedin, .twitter, .youtube {display: inline-block; background: url('images/img-fallback/rs.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}*/
     .webp .blog,.webp .facebook,.webp .instagram,.webp .linkedin,.webp .twitter,.webp .youtube{display: inline-block; background: url(images/rs.webp); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog,.no-webp .facebook,.no-webp .instagram,.no-webp .linkedin,.no-webp .twitter,.no-webp .youtube {display: inline-block; background: url('../../../images/img-fallback/rs.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog,.no-webp .facebook,.no-webp .instagram,.no-webp .linkedin,.no-webp .twitter,.no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
  
     .blog { background-position: -0px -0px; width: 50px; height: 50px; margin: 1%;}
     .facebook { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
@@ -246,8 +246,8 @@ a:hover {background-color: rgba(0, 40, 73, 0.7); transition: ease .6s; -webkit-b
     #icone_email{float: left; width: 2.8%; padding: 1% 1%; margin: -1% 0 0 0;}
     #container_redes_sociais_s{display: none;}
 
-    .webp .blog,.webp .facebook,.webp .instagram,.webp .linkedin,.webp .twitter,.webp .youtube{display: inline-block; background: url(../../../images/rs.webp); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog,.no-webp .facebook,.no-webp .instagram,.no-webp .linkedin,.no-webp .twitter,.no-webp .youtube {display: inline-block; background: url('../../../images/img-fallback/rs.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog,.webp .facebook,.webp .instagram,.webp .linkedin,.webp .twitter,.webp .youtube{display: inline-block; background: url(images/rs.webp); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog,.no-webp .facebook,.no-webp .instagram,.no-webp .linkedin,.no-webp .twitter,.no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
      
     .blog { background-position: -0px -0px; width: 50px; height: 50px; margin: 1%;}
     .facebook { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
